@@ -18,6 +18,6 @@ Please note that this is a basic description and may need to be adjusted accordi
 Copyright
 All content in this repository is the exclusive property of the author(PlonoXxcoder). Any reproduction, modification or use without the express permission of the author is strictly prohibited.
 
-Version bêta 0.3
-V0.3-beta
+Version bêta 0.3.1
+V0.3.1-beta
 
