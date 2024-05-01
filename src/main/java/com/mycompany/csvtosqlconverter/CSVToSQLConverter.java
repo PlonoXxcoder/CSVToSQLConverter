@@ -7,7 +7,19 @@ import java.nio.file.Paths;
 
 public class CSVToSQLConverter {
     public static void main(String[] args) {
-        String csvFile = "C:\\Users\\paulb\\Desktop\\travail\\CSVToSQLConverter\\liste_complete_entreprises_2023_2024.csv";
+        // Liste des fichiers CSV
+        String[] csvFiles = {
+            "Votre chemin ",
+            "Second chemin",
+            // Add other CSV file paths here
+        };
+
+        for (String csvFile : csvFiles) {
+            convertCSVToSQL(csvFile);
+        }
+    }
+
+    public static void convertCSVToSQL(String csvFile) {
         String line = "";
         String cvsSplitBy = ",";
 
