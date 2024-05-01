@@ -3,13 +3,16 @@ package com.mycompany.csvtosqlconverter;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 
 public class CSVToSQLConverter {
     public static void main(String[] args) {
-        String csvFile = "votre chemin ici";
+        String csvFile = "C:\\Users\\paulb\\Desktop\\travail\\CSVToSQLConverter\\liste_complete_entreprises_2023_2024.csv";
         String line = "";
         String cvsSplitBy = ",";
-        String tableName = "MaTable";
+
+        // Extraire le nom du fichier sans l'extension
+        String tableName = Paths.get(csvFile).getFileName().toString().replaceFirst("[.][^.]+$", "");
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
             String[] columnNames = br.readLine().split(cvsSplitBy);
