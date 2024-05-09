@@ -1,2 +1,3 @@
 CSVReader.class
+com\mycompany\csvtosqlconverter\CSVToSQLConverter$DataType.class
 com\mycompany\csvtosqlconverter\CSVToSQLConverter.class
