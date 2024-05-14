@@ -25,7 +25,7 @@ Please note that this is a basic description and may need to be adjusted accordi
 
 All content in this repository is the exclusive property of the author(PlonoXxcoder). Any reproduction, modification or use without the express permission of the author is strictly prohibited.
 
-## Version bêta 0.3.1
-V0.3.1-beta
+## Version bêta 0.4.0
+V0.4.0-beta
 
 ![image](https://github.com/PlonoXxcoder/CSVToSQLConverter/assets/92154741/e766f921-8502-4b27-95af-b4cb5d166f1f)
